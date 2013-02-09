@@ -1,0 +1,25 @@
+---
+comments: true
+date: 2012-01-30 21:36:30
+layout: post
+slug: bescala-meetup-2012-02-16
+title: BeScala Meetup at Inventive Designers on Thursday, Feb 16th
+wordpress_id: 88
+categories:
+- Scala
+---
+
+This Scala meetup is generously hosted by Inventive Designers in Antwerp.
+
+7pm meet and greet
+
+7:30pm presentations
+
+The suggested topic for this meetup is "Scala for testing". Even if your team currently only uses Java for development, some of the Scala-based testing libraries (Specs, ScalaTest, ScalaCheck) that we plan to talk about are still an attractive solution, e.g. for BDD and Acceptance Testing, since they provide a strongly typed, IDE-assisted alternative to plain-text-based approaches for behaviour specification.
+
+If you have any experience with Scala for testing, we'd like to hear about it.
+
+Make sure you subscribe on Fikket if you want to join us.
+[http://bescala2012.fikket.com/event/bescala-meetup-at-inventive-designers-on-thursday-feb-16th](http://bescala2012.fikket.com/event/bescala-meetup-at-inventive-designers-on-thursday-feb-16th)
+
+More info about the location: [Inventive Designers](http://www.inventivedesigners.com/about/findus)

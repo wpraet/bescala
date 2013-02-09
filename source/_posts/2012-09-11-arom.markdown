@@ -1,0 +1,31 @@
+---
+comments: true
+date: 2012-09-11 21:44:01
+layout: post
+slug: arom
+title: 'Meetup Oct 24th - AROM: a distributed parallel processing framework'
+wordpress_id: 166
+categories:
+- Events
+- Scala
+---
+
+The development in computational processing has driven towards distributed processing frameworks performing tasks in parallel setups. The recent advances in Cloud Computing have widely contributed to this tendency. The MapReduce model proposed by Google is one of the most popular despite the well-known limitations inherent to the model which constrain the types of jobs that can be expressed. On the other hand models based on Data Flow Graphs (DFG) for the processing and the definition of the jobs, while more complex to express, are more general and suitable for a wider range of tasks, including iterative and pipelined tasks.
+
+In this talk we present AROM, a framework for large scale distributed processing based on DFG to express the jobs and which uses paradigms from functional programming to define the operators. The former leads to more natural handling of pipelined tasks while the latter enhances genericity and reusability of the operators.
+
+[ ](https://github.com/nltran/arom)This BeScala meetup is proposed and hosted by **[Eura Nova](http://euranova.eu/)** in Louvain-la-Neuve (Mont-Saint-Guibert).
+
+
+Please **[register](http://bescala.fikket.com/events/arom-a-distributed-parallel-processing-framework/orders/new)** on the fikket page, as we have to limit participation.
+
+
+**Direction**:
+Rue Émile Francqui, 4
+1435 Mont-Saint-Guibert
+
+[http://euranova.eu/](http://euranova.eu/)
+
+[http://arom-processing.org/](http://arom-processing.org/)
+
+The AROM framework source code is available at [https://github.com/nltran/arom](https://github.com/nltran/arom)
