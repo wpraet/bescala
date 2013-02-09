@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>BeScala</title>
+  <title>Welcome to BeScala  - BeScala</title>
   <meta name="author" content="BeScala">
 
   
-  <meta name="description" content="Writing and maintaining concurrent applications that exploit parallelism in multicore environment is a challenging task on the JVM. In absence of &hellip;">
+  <meta name="description" content="So, here is our website and its first post! BeScala, the Belgium Scala Enthusiasts website was born after the first Belgium Scala Meetup hold on July &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,13 +18,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://bescala.org/">
-  <link href="/bescala/favicon.png" rel="icon">
-  <link href="/bescala/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/bescala/javascripts/modernizr-2.0.js"></script>
-  <script src="/bescala/javascripts/ender.js"></script>
-  <script src="/bescala/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/bescala/atom.xml" rel="alternate" title="BeScala" type="application/atom+xml">
+  <link rel="canonical" href="http://www.bescala.org/bescala/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="BeScala" type="application/atom+xml">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -37,22 +37,22 @@
   <header role="banner"><div class="social-links">
   
     <a href="https://plus.google.com/communities/107648187573764165681" target="_blank">
-      <img src="/bescala/images/googleplus-round.png" width="48" height="48">
+      <img src="/images/googleplus-round.png" width="48" height="48">
     </a>
   
   
     <a href="https://twitter.com/be_scala"  target="_blank">
-      <img src="/bescala/images/twitter-round.png" width="48" height="48">
+      <img src="/images/twitter-round.png" width="48" height="48">
     </a>
   
 </div>
 <hgroup>
   <div id="logo" class="logo">
-    <a href="/bescala/"><img src="/bescala/images/logo.png"/></a>
+    <a href="/"><img src="/images/logo.png"/></a>
   	<div class="clear"></div>
   </div>
   
-  <!--<h1><a href="/bescala/">BeScala</a></h1>-->
+  <!--<h1><a href="/">BeScala</a></h1>-->
   
     <h2>The Belgian Scala User Group</h2>
   
@@ -62,35 +62,32 @@
 
 </header>
   <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/bescala/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
   
 </ul>
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:bescala.org" />
+    <input type="hidden" name="q" value="site:www.bescala.org" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
   
 <ul class="main-navigation">
-  <li><a href="/bescala/">News</a></li>
-  <li><a href="/bescala/blog/archives">Archives</a></li>
+  <li><a href="/">News</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
 </ul>
 
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/bescala/meetup-october-10th/">Meetup October 10th - Molecule: Using Monadic and Streaming I/O to Compose Process Networks on the JVM</a></h1>
+      
+        <h1 class="entry-title">Welcome to BeScala</h1>
       
     
     
@@ -107,48 +104,32 @@
   
 
 
-<time datetime="2012-10-01T21:36:44+02:00" pubdate data-updated="true">Oct 1<span>st</span>, 2012</time>
+<time datetime="2011-07-18T18:43:02+02:00" pubdate data-updated="true">Jul 18<span>th</span>, 2011</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>Writing and maintaining concurrent applications that exploit parallelism in multicore environment is a challenging task on the JVM. In absence of coroutines, programming against non-blocking I/O interfaces forces developers to give up traditional control structures offered transparently by native threads such as termination management and exception handling. Managing these explicitly in a program often turns out into a maintenance nightmare for any non-trivial application. Moreover, in absence of good scheduling strategies, the performance of concurrent applications that exhibit a high amount of context switches may degrade significantly when they are scheduled over more than one thread.</p>
+<div class="entry-content"><p>So, here is our website and its first post!</p>
 
-<p>In this talk, we present Molecule, a domain specific language in Scala and a runtime library for developing concurrent applications on the JVM. Molecule applications are designed as process networks that communicate over strongly typed channel interfaces. Molecule abstracts user-level threads that interact over non-blocking interfaces behind a monad that takes care of automatic resource management and exception handling. Its strongly typed channel interfaces can be manipulated as lazy streams in functional programming languages, which contribute to increase the overall expressiveness of lightweight processes. Its runtime implement a flow parallel scheduler that eliminates thread context switches when processes communicate sequentially. We will illustrate its expressiveness and performance benefits over several examples during the talk.</p>
+<p><strong>BeScala</strong>, the<strong> Belgium Scala Enthusiasts</strong> website was born after the first <strong>Belgium Scala Meetup</strong> hold on July 13th, 2011 in Brussels.</p>
 
-<p>This BeScala meetup is proposed and hosted by <a href="http://www.alcatel-lucent.com/be">Alcatel-Lucent</a> in Antwerp.
-Our host, Sébastien Bocq, will also be presenting this framework at the <a href="http://splashcon.org/2012/program/oopsla-research-papers/466-concurrency-ii">OOPSLA conference</a></p>
+<p>Here we&#8217;ll share information about our future meetups, presentations, drinks and all activities related with the Scala programming language in Belgium.</p>
 
-<p>For organisation reasons, you <strong>must</strong> <a href="http://bescala.fikket.com/event/molecule">register</a> on the Fikket page and registrations will end Tuesday October 9th at 17h00.
-Also on the day of the event registration at the Alcatel-Lucent front desk must happen before 19h00.</p>
-
-<p>Direction:
-Copernicuslaan 50
-2018 Antwerpen
-Belgium</p>
-
-<p><a href="http://www.alcatel-lucent.com/be">http://www.alcatel-lucent.com/be</a></p>
+<p>To keep informed about our activity, follow us on: Twitter (<a href="https://twitter.com/#!/be_scala">@be_scala</a>), <a href="http://www.linkedin.com/groups?home=&amp;gid=4001883&amp;trk=anet_ug_hm">LinkedIn</a> and/or <a href="http://groups.google.com/group/bescala">Google Groups</a>.
+And of course this website!</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/bescala/arom/">Meetup Oct 24th - AROM: A Distributed Parallel Processing Framework</a></h1>
+  
+
+<span class="byline author vcard">Posted by <span class="fn">BeScala</span></span>
+
       
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -160,470 +141,48 @@ Belgium</p>
   
 
 
-<time datetime="2012-09-11T23:44:01+02:00" pubdate data-updated="true">Sep 11<span>th</span>, 2012</time>
-        
-      </p>
+<time datetime="2011-07-18T18:43:02+02:00" pubdate data-updated="true">Jul 18<span>th</span>, 2011</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/category/scala/'>Scala</a>
+  
+</span>
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>The development in computational processing has driven towards distributed processing frameworks performing tasks in parallel setups. The recent advances in Cloud Computing have widely contributed to this tendency. The MapReduce model proposed by Google is one of the most popular despite the well-known limitations inherent to the model which constrain the types of jobs that can be expressed. On the other hand models based on Data Flow Graphs (DFG) for the processing and the definition of the jobs, while more complex to express, are more general and suitable for a wider range of tasks, including iterative and pipelined tasks.</p>
-
-<p>In this talk we present AROM, a framework for large scale distributed processing based on DFG to express the jobs and which uses paradigms from functional programming to define the operators. The former leads to more natural handling of pipelined tasks while the latter enhances genericity and reusability of the operators.</p>
-
-<p><a href="https://github.com/nltran/arom"> </a>This BeScala meetup is proposed and hosted by <strong><a href="http://euranova.eu/">Eura Nova</a></strong> in Louvain-la-Neuve (Mont-Saint-Guibert).</p>
-
-<p>Please <strong><a href="http://bescala.fikket.com/events/arom-a-distributed-parallel-processing-framework/orders/new">register</a></strong> on the fikket page, as we have to limit participation.</p>
-
-<p><strong>Direction</strong>:
-Rue Émile Francqui, 4
-1435 Mont-Saint-Guibert</p>
-
-<p><a href="http://euranova.eu/">http://euranova.eu/</a></p>
-
-<p><a href="http://arom-processing.org/">http://arom-processing.org/</a></p>
-
-<p>The AROM framework source code is available at <a href="https://github.com/nltran/arom">https://github.com/nltran/arom</a></p>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.bescala.org/bescala/" data-via="be_scala" data-counturl="http://www.bescala.org/bescala/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
 </div>
-  
-  
 
-
-    </article>
-  
-  
-    <article>
+    
+    <p class="meta">
       
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/bescala/bescala-devoxx-2012/">BeScala @ Devoxx 2012</a></h1>
       
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-09-04T01:14:24+02:00" pubdate data-updated="true">Sep 4<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>We are pleased to announce that our rendez-vous at <a href="http://www.devoxx.com/">Devoxx 2012</a> is confirmed.</p>
-
-<p>Come and join us on Monday 12th November at 19:00 on the <a href="http://www.devoxx.com/display/DV12/Scala+Enthusiasts+Gathering">Scala Enthusiasts Gathering BoF</a> for a informal meet-up with other Scala enthusiasts from Belgium and abroad.</p>
-
-<p>The access to the BoFs are <strong>free of charge</strong>, but of course we <strong>strongly</strong> <strong>recommend</strong> a Devoxx subscription. As usual, Devoxx is featuring a lot of excellent <a href="http://www.devoxx.com/display/DV12/Schedule">talks</a>, some of them on <a href="http://www.devoxx.com/label/DV12/scala">Scala</a>.</p>
-
-<p>Don&#8217;t wait till the last minute, get today your Devoxx <a href="https://reg.devoxx.com/public/#DV12">subscription</a>.</p>
-
-<p><a href="https://reg.devoxx.com/public/#DV12"><img src="/bescala/images/devoxx-2012-horiz.gif" alt="Devoxx 2012" /></a></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
+        <a class="basic-alignment right articlenav" href="/bescala-2nd-meet-up/" title="Next Post: BeScala - 2nd meet-up">BeScala - 2nd meet-up &raquo;</a>
       
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/bescala/some-monads-after-the-holidays/">Meetup Sept 27th - Some Monads After the Holidays</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-28T09:26:45+02:00" pubdate data-updated="true">Aug 28<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>After the summer holidays, it&#8217;s time for some Scala and functional programming to bring us back to speed. :-) As such we are re-scheduling, the previous cancelled event on Monads. We&#8217;ll be meeting on the 27th September at 7pm and we will have <a href="http://www.linkedin.com/pub/luc-duponcheel/1/366/6b7">Luc Duponcheel</a> (@LucDup) presenting &#8220;Monads as Computations&#8221;.</p>
-
-<p>This talk deals with the monadic computation interface.
-When implemented in Scala it can be used as a DSL for approaching a whole range of computations in a uniform way.
-This talk also shows how monads can be transformed to add extra computational features to them (while keeping their original (extra) computational features).</p>
-
-<p>The following extra computational features will be demonstrated:</p>
-
-<ul>
-<li><p>state</p></li>
-<li><p>control (delimited continuations based)</p></li>
-</ul>
-
-
-<p>In fact, the talk illustrates how to implement a monadic delimited continuations DSL without having to use an extra compiler plugin.
-The resulting DSL is only slightly less concise than the one that makes use of the compiler plugin.</p>
-
-<p>If there is some time left then also parallel programming with those monadic delimited continuations can be dealt with.</p>
-
-<p>This BeScala meetup is generously hosted by <strong><a href="http://www.inventivedesigners.com/">Inventive Designers</a></strong> in Antwerpen.</p>
-
-<p>Please <strong><a href="http://bescala.fikket.com/events/monads-as-computations/orders/new">register</a></strong> on the fikket page, as we have to limit participation.</p>
-
-<p><strong>Direction</strong>:
-Inventive Designers NV
-Sint-Bernardsesteenweg 552
-B-2660 Antwerpen</p>
-
-<p><a href="http://www.inventivedesigners.com/">http://www.inventivedesigners.com/
-</a> <a href="http://maps.google.be/maps?q=Sint-Bernardsesteenweg+552++B-2660+Antwerpen&amp;hl=en&amp;sll=50.849361,4.735621&amp;sspn=0.012071,0.020084&amp;hnear=Sint-Bernardsesteenweg+552,+Hoboken+2660+Antwerpen,+Vlaams+Gewest&amp;t=m&amp;z=16">GoogleMaps</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/bescala/summer-drink/">Summer Drink</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-06-28T01:29:44+02:00" pubdate data-updated="true">Jun 28<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>It&#8217;s been a long time since our last meet-up.</p>
-
-<p>The holidays are coming and hopefully the sun as well. Therefore we would like organize a drink on the 1st of August.</p>
-
-<p>As usual, we created a Fikket subscription. <a href="http://bescala.fikket.com/event/summer-drink">http://bescala.fikket.com/event/summer-drink</a></p>
-
-<p>Subscription is of course not mandatory, everybody is welcome to join us for a drink.</p>
-
-<p>We&#8217;ll meet at Delirium Café in Brussels at 19 o&#8217;clock.</p>
-
-<p>Address: Impasse de la Fidélité 4 (near central station).</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/bescala/play-coding-dojo-in-scala/">Play! Coding Dojo in Scala, May 21st in Leuven</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-04-27T23:40:43+02:00" pubdate data-updated="true">Apr 27<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2><strong>SOLD OUT! </strong></h2>
-
-<p>During this Dojo we&#8217;ll implement a Play! 2.0 application in Scala.</p>
-
-<p>We&#8217;ll start if a simple CRUD application where we&#8217;ll get in touch with basic usage of forms, page template, database persistence and testing in Play!. If time allows we&#8217;ll go for more advanced features and implement some functionality using Akka.</p>
-
-<p>This BeScala meetup is generously hosted by <strong><a href="http://www.ae.be">AE</a></strong> in Leuven.</p>
-
-<p><strong>What is a coding dojo?</strong></p>
-
-<p>A Coding Dojo is a meeting where a bunch of coders get together to work on a programming challenge. They are there have fun and to engage in Deliberate Practice in order to improve their skills. <a href="http://codingdojo.org/cgi-bin/wiki.pl?WhatIsCodingDojo">http://codingdojo.org/cgi-bin/wiki.pl?WhatIsCodingDojo</a></p>
-
-<p>Please <del><strong><a href="http://bescala.fikket.com/events/play-coding-dojo-in-scala/orders/new">register</a></strong></del> on the fikket page, as we have to limit participation.</p>
-
-<p><strong>Date:</strong>
-Monday, May 21st at 19:00.</p>
-
-<p><strong>Where:</strong>
-AE
-Interleuvenlaan 27B
-3001 Heverlee</p>
-
-<p><a href="http://www.ae.be">http://www.ae.be
-</a><a href="http://maps.google.be/maps?q=Interleuvenlaan+27B++3001+Heverlee&amp;hl=en&amp;sll=50.805935,4.432983&amp;sspn=6.187081,10.283203&amp;hnear=Interleuvenlaan+27,+3001+Leuven,+Vlaams-Brabant,+Vlaams+Gewest&amp;t=m&amp;z=16">GoogleMaps</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/bescala/scalacheck-slides/">ScalaCheck Slides From Last BeScala Meet-Up</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-02-21T10:43:44+01:00" pubdate data-updated="true">Feb 21<span>st</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><strong><a href="http://www.slideshare.net/BeScala/scala-check">ScalaCheck</a></strong></p>
-
-<p>View more <a href="http://www.slideshare.net/thecroaker/death-by-powerpoint">PowerPoint</a> from <a href="http://www.slideshare.net/BeScala">BeScala</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/bescala/bescala-meetup-2012-02-16/">BeScala Meetup at Inventive Designers on Thursday, Feb 16th</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-01-30T22:36:30+01:00" pubdate data-updated="true">Jan 30<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>This Scala meetup is generously hosted by Inventive Designers in Antwerp.</p>
-
-<p>7pm meet and greet</p>
-
-<p>7:30pm presentations</p>
-
-<p>The suggested topic for this meetup is &#8220;Scala for testing&#8221;. Even if your team currently only uses Java for development, some of the Scala-based testing libraries (Specs, ScalaTest, ScalaCheck) that we plan to talk about are still an attractive solution, e.g. for BDD and Acceptance Testing, since they provide a strongly typed, IDE-assisted alternative to plain-text-based approaches for behaviour specification.</p>
-
-<p>If you have any experience with Scala for testing, we&#8217;d like to hear about it.</p>
-
-<p>Make sure you subscribe on Fikket if you want to join us.
-<a href="http://bescala2012.fikket.com/event/bescala-meetup-at-inventive-designers-on-thursday-feb-16th">http://bescala2012.fikket.com/event/bescala-meetup-at-inventive-designers-on-thursday-feb-16th</a></p>
-
-<p>More info about the location: <a href="http://www.inventivedesigners.com/about/findus">Inventive Designers</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/bescala/report-from-scala-enthusiasts-gathering/">Report From the Scala Enthusiasts Gathering Bof @ Devoxx</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-11-15T19:03:47+01:00" pubdate data-updated="true">Nov 15<span>th</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Yesterday, we had the &#8220;Scala Enthusiats Gathering&#8221; BoF at Devoxx. We had between 20 to 30 attendees, some beer and some very interesting discussions about Scala. Most of the attendees were from Europe and Scala experience varied from none to full time Scala developers. We even had a Typesafe employee joining us. :-)</p>
-
-<p>One of the most discussed topic was Scala adoption and how to introduce it at work. As usual the most proposed strategy was to introduce it via non-produciton code, such as testing or support tools (build, deployment, log analysis, etc).</p>
-
-<p>Concerning Scala in production for mixed projects (Java + Scala), one of the proposed approachs was to have Java interfaces implemented in Scala or avoiding Scala methods with functions as parameters if they are to be called from Java.</p>
-
-<p>During the session some of the attendees gave links to their projects on github that could be useful for those willing to learn more about Scala. The list can be found bellow.</p>
-
-<ul>
-<li><p><a href="https://github.com/LucDupAtGitHub/GroceryShop">https://github.com/LucDupAtGitHub/GroceryShop</a></p></li>
-<li><p><a href="https://github.com/LucDupAtGitHub/SimpleDomainStore">https://github.com/LucDupAtGitHub/SimpleDomainStore</a></p></li>
-<li><p><a href="https://github.com/rcavalcanti/scala-guice">https://github.com/rcavalcanti/scala-guice</a></p></li>
-<li><p><a href="https://github.com/caelum/hibernate-query-dsl">https://github.com/caelum/hibernate-query-dsl</a></p></li>
-<li><p><a href="https://github.com/mariofusco/hammurabi">https://github.com/mariofusco/hammurabi</a></p></li>
-<li><p><a href="https://github.com/OlegIlyenko/scaldi">https://github.com/OlegIlyenko/scaldi</a></p></li>
-</ul>
+    </p>
+  </footer>
+</article>
 
 </div>
-  
-  
 
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/bescala/scala-devoxx-calendar/">Scala Devoxx Calendar</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-10-03T23:04:11+02:00" pubdate data-updated="true">Oct 3<span>rd</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>We have created two Google Calendars with all Devoxx&#8217; <strong>Scala</strong> talks and related topics.</p>
-
-<ul>
-<li><p><a href="http://www.google.com/calendar/ical/bescala.org_phtoe0n1i1r2fpg1msnpfvb3do%40group.calendar.google.com/public/basic.ics">Scala @ Devoxx</a></p></li>
-<li><p><a href="http://www.google.com/calendar/ical/bescala.org_nfe8pqhn36qtmcne9b5orkj0no%40group.calendar.google.com/public/basic.ics">Other JVM lang</a></p></li>
-</ul>
-
-
-<p>On the later, you&#8217;ll find talks on Groovy, JRuby, Kotlin, Ceylon, Fantom, Java language updates and roadmap, the JavaPosse recording and a talk from Dick Wall about &#8220;Courage in Software Development&#8221;. Considering his involvement with Scala, we can imagine that his talk is of interest to all of us.</p>
-
-<p>You can download the .ics or import the url to you calendar application or Google Calendar.</p>
-
-<p>The calendars are created by hand and may be out-of-sync. Therefore, don&#8217;t forget to check the real one at <a href="http://www.devoxx.com/display/DV11/Schedule">Devoxx 2011 Schedule</a>.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-      <a class="prev" href="/bescala/blog/page/2/">&larr; Older</a>
-    
-    <a href="/bescala/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
 <aside class="sidebar">
   
     <section>
   <h1>Devoxx UK & FR</h1>
   <ul id="links">
       <li class="link">
-        <a href="https://reguk.devoxx.com"  target="_blank" style="display:hidden;"><img src="/bescala/images/devoxx/DevoxxUK-160-600.jpg"/></a>
-        <a href="https://regfr.devoxx.com"  target="_blank" style="display: hidden"><img src="/bescala/images/devoxx/DevoxxFR-160-600.png"/></a>
+        <a href="https://reguk.devoxx.com"  target="_blank" style="display:hidden;"><img src="/images/devoxx/DevoxxUK-160-600.jpg"/></a>
+        <a href="https://regfr.devoxx.com"  target="_blank" style="display: hidden"><img src="/images/devoxx/DevoxxFR-160-600.png"/></a>
       </li>
   </ul>
 </section>
@@ -631,14 +190,14 @@ Interleuvenlaan 27B
 <section>
   <h1>Latest Tweets</h1>
   <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   <script type="text/javascript">
     $.domReady(function(){
       getTwitterFeed("be_scala", 4, false);
     });
   </script>
-  <script src="/bescala/javascripts/twitter.js" type="text/javascript"> </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
   
     <a href="http://twitter.com/be_scala" class="twitter-follow-button" data-show-count="false">Follow @be_scala</a>
   
@@ -647,6 +206,7 @@ Interleuvenlaan 27B
 
   
 </aside>
+
 
     </div>
   </div>

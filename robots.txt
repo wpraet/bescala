@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://bescala.org/sitemap.xml 
