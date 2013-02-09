@@ -1,12 +1,72 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://BeScala.github.com/bescala/bescala/</loc>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BeScala.github.com/bescala/bescala-2nd-meet-up/</loc>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BeScala.github.com/bescala/bescala-2nd-meet-up-programme/</loc>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BeScala.github.com/bescala/report-from-last-meet-up/</loc>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BeScala.github.com/bescala/bescala-devoxx-2011/</loc>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BeScala.github.com/bescala/scala-devoxx-calendar/</loc>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BeScala.github.com/bescala/report-from-scala-enthusiasts-gathering/</loc>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BeScala.github.com/bescala/bescala-meetup-2012-02-16/</loc>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BeScala.github.com/bescala/scalacheck-slides/</loc>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BeScala.github.com/bescala/play-coding-dojo-in-scala/</loc>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BeScala.github.com/bescala/summer-drink/</loc>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BeScala.github.com/bescala/some-monads-after-the-holidays/</loc>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BeScala.github.com/bescala/bescala-devoxx-2012/</loc>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BeScala.github.com/bescala/arom/</loc>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BeScala.github.com/bescala/meetup-october-10th/</loc>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://BeScala.github.com/bescala/blog/archives/</loc>
-        <lastmod>2013-02-09T23:11:00+01:00</lastmod>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
     </url>
     <url>
         <loc>http://BeScala.github.com/bescala/</loc>
-        <lastmod>2013-02-09T23:11:00+01:00</lastmod>
+        <lastmod>2013-02-09T23:36:03+01:00</lastmod>
     </url>
     <url>
         <loc>http://BeScala.github.com/bescala/robots.txt</loc>

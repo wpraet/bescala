@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Meetup October 10th - Molecule: Using Monadic and Streaming I/O to Compose Process Networks on the JVM - BeScala</title>
+  <meta name="author" content="BeScala">
+
+  
+  <meta name="description" content="Writing and maintaining concurrent applications that exploit parallelism in multicore environment is a challenging task on the JVM. In absence of &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://BeScala.github.com/bescala/meetup-october-10th/">
+  <link href="/bescala/favicon.png" rel="icon">
+  <link href="/bescala/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/bescala/javascripts/modernizr-2.0.js"></script>
+  <script src="/bescala/javascripts/ender.js"></script>
+  <script src="/bescala/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/bescala/atom.xml" rel="alternate" title="BeScala" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  
+
+</head>
+
+<body   >
+  <header role="banner"><div class="social-links">
+  
+    <a href="https://plus.google.com/communities/107648187573764165681" target="_blank">
+      <img src="/bescala/images/googleplus-round.png" width="48" height="48">
+    </a>
+  
+  
+    <a href="https://twitter.com/be_scala"  target="_blank">
+      <img src="/bescala/images/twitter-round.png" width="48" height="48">
+    </a>
+  
+</div>
+<hgroup>
+  <div id="logo" class="logo">
+    <a href="/bescala/"><img src="/bescala/images/logo.png"/></a>
+  	<div class="clear"></div>
+  </div>
+  
+  <!--<h1><a href="/bescala/">BeScala</a></h1>-->
+  
+    <h2>The Belgian Scala User Group</h2>
+  
+  <div class="clear"></div>
+</hgroup>
+
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/bescala/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:BeScala.github.com/bescala" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/bescala/">News</a></li>
+  <li><a href="/bescala/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      
+        <h1 class="entry-title">Meetup October 10th - Molecule: Using Monadic and Streaming I/O to Compose Process Networks on the JVM</h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-01T21:36:44+02:00" pubdate data-updated="true">Oct 1<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Writing and maintaining concurrent applications that exploit parallelism in multicore environment is a challenging task on the JVM. In absence of coroutines, programming against non-blocking I/O interfaces forces developers to give up traditional control structures offered transparently by native threads such as termination management and exception handling. Managing these explicitly in a program often turns out into a maintenance nightmare for any non-trivial application. Moreover, in absence of good scheduling strategies, the performance of concurrent applications that exhibit a high amount of context switches may degrade significantly when they are scheduled over more than one thread.</p>
+
+<p>In this talk, we present Molecule, a domain specific language in Scala and a runtime library for developing concurrent applications on the JVM. Molecule applications are designed as process networks that communicate over strongly typed channel interfaces. Molecule abstracts user-level threads that interact over non-blocking interfaces behind a monad that takes care of automatic resource management and exception handling. Its strongly typed channel interfaces can be manipulated as lazy streams in functional programming languages, which contribute to increase the overall expressiveness of lightweight processes. Its runtime implement a flow parallel scheduler that eliminates thread context switches when processes communicate sequentially. We will illustrate its expressiveness and performance benefits over several examples during the talk.</p>
+
+<p>This BeScala meetup is proposed and hosted by <a href="http://www.alcatel-lucent.com/be">Alcatel-Lucent</a> in Antwerp.
+Our host, Sébastien Bocq, will also be presenting this framework at the <a href="http://splashcon.org/2012/program/oopsla-research-papers/466-concurrency-ii">OOPSLA conference</a></p>
+
+<p>For organisation reasons, you <strong>must</strong> <a href="http://bescala.fikket.com/event/molecule">register</a> on the Fikket page and registrations will end Tuesday October 9th at 17h00.
+Also on the day of the event registration at the Alcatel-Lucent front desk must happen before 19h00.</p>
+
+<p>Direction:
+Copernicuslaan 50
+2018 Antwerpen
+Belgium</p>
+
+<p><a href="http://www.alcatel-lucent.com/be">http://www.alcatel-lucent.com/be</a></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">BeScala</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-01T21:36:44+02:00" pubdate data-updated="true">Oct 1<span>st</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/bescala/category/events/'>Events</a>, <a class='category' href='/bescala/category/scala/'>Scala</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://BeScala.github.com/bescala/meetup-october-10th/" data-via="be_scala" data-counturl="http://BeScala.github.com/bescala/meetup-october-10th/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left articlenav" href="/bescala/arom/" title="Previous Post: Meetup Oct 24th - AROM: a distributed parallel processing framework">&laquo; Meetup Oct 24th - AROM: a distributed parallel processing framework</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Devoxx UK & FR</h1>
+  <ul id="links">
+      <li class="link">
+        <a href="https://reguk.devoxx.com"  target="_blank" style="display:hidden;"><img src="/bescala/images/devoxx/DevoxxUK-160-600.jpg"/></a>
+        <a href="https://regfr.devoxx.com"  target="_blank" style="display: hidden"><img src="/bescala/images/devoxx/DevoxxFR-160-600.png"/></a>
+      </li>
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("be_scala", 4, false);
+    });
+  </script>
+  <script src="/bescala/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/be_scala" class="twitter-follow-button" data-show-count="false">Follow @be_scala</a>
+  
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - BeScala -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  - Build by and for the belgian Scala community.
+</p>
+
+</footer>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
