@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Scala | BeScala]]></title>
+  <link href="http://BeScala.github.com/bescala/category/scala/atom.xml" rel="self"/>
+  <link href="http://BeScala.github.com/bescala/"/>
+  <updated>2013-02-10T00:07:28+01:00</updated>
+  <id>http://BeScala.github.com/bescala/</id>
+  <author>
+    <name><![CDATA[BeScala]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Meetup October 10th - Molecule: Using Monadic and Streaming I/O to Compose Process Networks on the JVM]]></title>
+    <link href="http://BeScala.github.com/bescala/meetup-october-10th/"/>
+    <updated>2012-10-01T21:36:44+02:00</updated>
+    <id>http://BeScala.github.com/bescala/meetup-october-10th</id>
+    <content type="html"><![CDATA[<p>Writing and maintaining concurrent applications that exploit parallelism in multicore environment is a challenging task on the JVM. In absence of coroutines, programming against non-blocking I/O interfaces forces developers to give up traditional control structures offered transparently by native threads such as termination management and exception handling. Managing these explicitly in a program often turns out into a maintenance nightmare for any non-trivial application. Moreover, in absence of good scheduling strategies, the performance of concurrent applications that exhibit a high amount of context switches may degrade significantly when they are scheduled over more than one thread.</p>
+
+<p>In this talk, we present Molecule, a domain specific language in Scala and a runtime library for developing concurrent applications on the JVM. Molecule applications are designed as process networks that communicate over strongly typed channel interfaces. Molecule abstracts user-level threads that interact over non-blocking interfaces behind a monad that takes care of automatic resource management and exception handling. Its strongly typed channel interfaces can be manipulated as lazy streams in functional programming languages, which contribute to increase the overall expressiveness of lightweight processes. Its runtime implement a flow parallel scheduler that eliminates thread context switches when processes communicate sequentially. We will illustrate its expressiveness and performance benefits over several examples during the talk.</p>
+
+<p>This BeScala meetup is proposed and hosted by <a href="http://www.alcatel-lucent.com/be">Alcatel-Lucent</a> in Antwerp.
+Our host, Sébastien Bocq, will also be presenting this framework at the <a href="http://splashcon.org/2012/program/oopsla-research-papers/466-concurrency-ii">OOPSLA conference</a></p>
+
+<p>For organisation reasons, you <strong>must</strong> <a href="http://bescala.fikket.com/event/molecule">register</a> on the Fikket page and registrations will end Tuesday October 9th at 17h00.
+Also on the day of the event registration at the Alcatel-Lucent front desk must happen before 19h00.</p>
+
+<p>Direction:
+Copernicuslaan 50
+2018 Antwerpen
+Belgium</p>
+
+<p><a href="http://www.alcatel-lucent.com/be">http://www.alcatel-lucent.com/be</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Meetup Oct 24th - AROM: a distributed parallel processing framework]]></title>
+    <link href="http://BeScala.github.com/bescala/arom/"/>
+    <updated>2012-09-11T23:44:01+02:00</updated>
+    <id>http://BeScala.github.com/bescala/arom</id>
+    <content type="html"><![CDATA[<p>The development in computational processing has driven towards distributed processing frameworks performing tasks in parallel setups. The recent advances in Cloud Computing have widely contributed to this tendency. The MapReduce model proposed by Google is one of the most popular despite the well-known limitations inherent to the model which constrain the types of jobs that can be expressed. On the other hand models based on Data Flow Graphs (DFG) for the processing and the definition of the jobs, while more complex to express, are more general and suitable for a wider range of tasks, including iterative and pipelined tasks.</p>
+
+<p>In this talk we present AROM, a framework for large scale distributed processing based on DFG to express the jobs and which uses paradigms from functional programming to define the operators. The former leads to more natural handling of pipelined tasks while the latter enhances genericity and reusability of the operators.</p>
+
+<p><a href="https://github.com/nltran/arom"> </a>This BeScala meetup is proposed and hosted by <strong><a href="http://euranova.eu/">Eura Nova</a></strong> in Louvain-la-Neuve (Mont-Saint-Guibert).</p>
+
+<p>Please <strong><a href="http://bescala.fikket.com/events/arom-a-distributed-parallel-processing-framework/orders/new">register</a></strong> on the fikket page, as we have to limit participation.</p>
+
+<p><strong>Direction</strong>:
+Rue Émile Francqui, 4
+1435 Mont-Saint-Guibert</p>
+
+<p><a href="http://euranova.eu/">http://euranova.eu/</a></p>
+
+<p><a href="http://arom-processing.org/">http://arom-processing.org/</a></p>
+
+<p>The AROM framework source code is available at <a href="https://github.com/nltran/arom">https://github.com/nltran/arom</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[BeScala @ Devoxx 2012]]></title>
+    <link href="http://BeScala.github.com/bescala/bescala-devoxx-2012/"/>
+    <updated>2012-09-04T01:14:24+02:00</updated>
+    <id>http://BeScala.github.com/bescala/bescala-devoxx-2012</id>
+    <content type="html"><![CDATA[<p>We are pleased to announce that our rendez-vous at <a href="http://www.devoxx.com/">Devoxx 2012</a> is confirmed.</p>
+
+<p>Come and join us on Monday 12th November at 19:00 on the <a href="http://www.devoxx.com/display/DV12/Scala+Enthusiasts+Gathering">Scala Enthusiasts Gathering BoF</a> for a informal meet-up with other Scala enthusiasts from Belgium and abroad.</p>
+
+<p>The access to the BoFs are <strong>free of charge</strong>, but of course we <strong>strongly</strong> <strong>recommend</strong> a Devoxx subscription. As usual, Devoxx is featuring a lot of excellent <a href="http://www.devoxx.com/display/DV12/Schedule">talks</a>, some of them on <a href="http://www.devoxx.com/label/DV12/scala">Scala</a>.</p>
+
+<p>Don't wait till the last minute, get today your Devoxx <a href="https://reg.devoxx.com/public/#DV12">subscription</a>.</p>
+
+<p><a href="https://reg.devoxx.com/public/#DV12"><img src="/images/devoxx-2012-horiz.gif" alt="Devoxx 2012" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Meetup Sept 27th - Some Monads after the holidays]]></title>
+    <link href="http://BeScala.github.com/bescala/some-monads-after-the-holidays/"/>
+    <updated>2012-08-28T09:26:45+02:00</updated>
+    <id>http://BeScala.github.com/bescala/some-monads-after-the-holidays</id>
+    <content type="html"><![CDATA[<p>After the summer holidays, it's time for some Scala and functional programming to bring us back to speed. :-) As such we are re-scheduling, the previous cancelled event on Monads. We'll be meeting on the 27th September at 7pm and we will have <a href="http://www.linkedin.com/pub/luc-duponcheel/1/366/6b7">Luc Duponcheel</a> (@LucDup) presenting "Monads as Computations".</p>
+
+<p>This talk deals with the monadic computation interface.
+When implemented in Scala it can be used as a DSL for approaching a whole range of computations in a uniform way.
+This talk also shows how monads can be transformed to add extra computational features to them (while keeping their original (extra) computational features).</p>
+
+<p>The following extra computational features will be demonstrated:</p>
+
+<ul>
+<li><p>state</p></li>
+<li><p>control (delimited continuations based)</p></li>
+</ul>
+
+
+<p>In fact, the talk illustrates how to implement a monadic delimited continuations DSL without having to use an extra compiler plugin.
+The resulting DSL is only slightly less concise than the one that makes use of the compiler plugin.</p>
+
+<p>If there is some time left then also parallel programming with those monadic delimited continuations can be dealt with.</p>
+
+<p>This BeScala meetup is generously hosted by <strong><a href="http://www.inventivedesigners.com/">Inventive Designers</a></strong> in Antwerpen.</p>
+
+<p>Please <strong><a href="http://bescala.fikket.com/events/monads-as-computations/orders/new">register</a></strong> on the fikket page, as we have to limit participation.</p>
+
+<p><strong>Direction</strong>:
+Inventive Designers NV
+Sint-Bernardsesteenweg 552
+B-2660 Antwerpen</p>
+
+<p><a href="http://www.inventivedesigners.com/">http://www.inventivedesigners.com/
+</a> <a href="http://maps.google.be/maps?q=Sint-Bernardsesteenweg+552++B-2660+Antwerpen&amp;hl=en&amp;sll=50.849361,4.735621&amp;sspn=0.012071,0.020084&amp;hnear=Sint-Bernardsesteenweg+552,+Hoboken+2660+Antwerpen,+Vlaams+Gewest&amp;t=m&amp;z=16">GoogleMaps</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Play! Coding Dojo in Scala, May 21st in Leuven]]></title>
+    <link href="http://BeScala.github.com/bescala/play-coding-dojo-in-scala/"/>
+    <updated>2012-04-27T23:40:43+02:00</updated>
+    <id>http://BeScala.github.com/bescala/play-coding-dojo-in-scala</id>
+    <content type="html"><![CDATA[<h2><strong>SOLD OUT! </strong></h2>
+
+<p>During this Dojo we'll implement a Play! 2.0 application in Scala.</p>
+
+<p>We'll start if a simple CRUD application where we'll get in touch with basic usage of forms, page template, database persistence and testing in Play!. If time allows we'll go for more advanced features and implement some functionality using Akka.</p>
+
+<p>This BeScala meetup is generously hosted by <strong><a href="http://www.ae.be">AE</a></strong> in Leuven.</p>
+
+<p><strong>What is a coding dojo?</strong></p>
+
+<p>A Coding Dojo is a meeting where a bunch of coders get together to work on a programming challenge. They are there have fun and to engage in Deliberate Practice in order to improve their skills. <a href="http://codingdojo.org/cgi-bin/wiki.pl?WhatIsCodingDojo">http://codingdojo.org/cgi-bin/wiki.pl?WhatIsCodingDojo</a></p>
+
+<p>Please <del><strong><a href="http://bescala.fikket.com/events/play-coding-dojo-in-scala/orders/new">register</a></strong></del> on the fikket page, as we have to limit participation.</p>
+
+<p><strong>Date:</strong>
+Monday, May 21st at 19:00.</p>
+
+<p><strong>Where:</strong>
+AE
+Interleuvenlaan 27B
+3001 Heverlee</p>
+
+<p><a href="http://www.ae.be">http://www.ae.be
+</a><a href="http://maps.google.be/maps?q=Interleuvenlaan+27B++3001+Heverlee&amp;hl=en&amp;sll=50.805935,4.432983&amp;sspn=6.187081,10.283203&amp;hnear=Interleuvenlaan+27,+3001+Leuven,+Vlaams-Brabant,+Vlaams+Gewest&amp;t=m&amp;z=16">GoogleMaps</a></p>
+]]></content>
+  </entry>
+  
+</feed>
