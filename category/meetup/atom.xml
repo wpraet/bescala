@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: meetup | BeScala]]></title>
+  <link href="http://www.bescala.org/category/meetup/atom.xml" rel="self"/>
+  <link href="http://www.bescala.org/"/>
+  <updated>2013-02-11T00:35:12+01:00</updated>
+  <id>http://www.bescala.org/</id>
+  <author>
+    <name><![CDATA[BeScala]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[BeScala 2013]]></title>
+    <link href="http://www.bescala.org/bescala-2013/"/>
+    <updated>2013-02-10T22:14:00+01:00</updated>
+    <id>http://www.bescala.org/bescala-2013</id>
+    <content type="html"><![CDATA[<p>After a long break it's time to push our community forward. We have been working on some small changes to our infrastructure and social network presence.</p>
+
+<p>When we started about two years ago, we created a LinkedIn group, a Twitter account, a Fikket account, a Google Groups mailing list, a Picasa Web Album and this website. It's clear that we have too many social networks to administrate.</p>
+
+<p>We would like to improve on that by reducing the number of communication channels. Therefore we created a community page on <a href="https://plus.google.com/communities/107648187573764165681">Google+</a> where we plain to publish information about up coming meetups (replaces Fikket), photos (replaces Picasa) and any other information that we want to share with our members (replaces LinkedIn and GoogleGroups).</p>
+
+<p>In addition to that, we also moved our website to Octopress and it's now being hosted at github. More on that later on...</p>
+
+<p>But that's not all. We have many more things in mind and we would like to share / discuss with the whole community. For that reason, we will meet next <strong>28th February</strong> at <strong>Delirum Pub</strong> in Brussel at 19 o'clock.
+Address: Impasse de la Fidélité 4.  (<a href="https://plus.google.com/events/c3f8hmcrjk7rl2bjv2rh0okvlm4?authkey=CLKBkcup9ameaQ">Google+ Event</a>)
+(Note: Delirum Pub is on the ground floor, Delirum Café is in the basement)</p>
+
+<p>Our main objective is to sit together with the group to expose what we have in mind and get some feedbank and new ideas. So, make sure you can join us. Your contribution is indispensable!</p>
+
+<!-- more -->
+
+
+<h3>Octopress and github</h3>
+
+<p>As you may already have noticed the design of our website has slightly changed. We moved from Wordpress to Octopress. The source files and the generated site is being hosted at github.</p>
+
+<p>But why did we change to Octopress? Because we are a geek community and therefore we publish our site on github! :-)</p>
+
+<p>Now serious, we didn't chnage because github and Octopress are cool.  They are, but we have other reasons (as well).</p>
+
+<p>We had two real reasons:</p>
+
+<ul>
+<li><p>Maintain a Wordpress installation requires some time. A lot of time. Time that we don't have or that we prefer to spent hacking in Scala or with our families (not necessarily on this order).</p></li>
+<li><p>People need to have an account to edit/add content and as a consequence, only we (the BeScala organizers), can create content. That's sub-optimal.</p></li>
+</ul>
+
+
+<p>Now that the website is on github, everybody can fork it, add/modify content and send us a pull request. This will allow us, but also the whole group, to quickly add new content.</p>
+
+<p>The site can be forked from here: https://github.com/BeScala/bescala
+You need to have Ruby (sorry for that) installed. You can find instructions on the <a href="http://octopress.org/docs/">Octopress' website</a></p>
+
+<p>That's all folks. Hope to see you all on the next meetup.</p>
+]]></content>
+  </entry>
+  
+</feed>
