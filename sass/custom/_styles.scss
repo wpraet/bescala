@@ -21,6 +21,14 @@ body > header h2 {
   color : $bescala-red;
 }
 
+h3 {
+  padding-top : 1.2em;
+}
+
+b, strong {
+  color : $bescala-dark-red;
+}
+
 .social-links {
   float : right;
   padding-bottom : 0.7em;
@@ -31,9 +39,14 @@ body > header h2 {
   font-family  : $sans;
 }
 
-article p {
+p {
   text-align: left;
   margin-bottom: 1em;
+  font-family : $sans;
+  color : #555;
+}
+
+p ul li {
   font-family : $sans;
   color : #555;
 }
