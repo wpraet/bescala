@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Scala | BeScala]]></title>
-  <link href="http://bescala.github.com/bescala/bescala/category/scala/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Events | BeScala]]></title>
+  <link href="http://bescala.github.com/bescala/category/events/atom.xml" rel="self"/>
   <link href="http://bescala.github.com/bescala/"/>
-  <updated>2013-02-10T00:58:21+01:00</updated>
+  <updated>2013-02-10T01:11:02+01:00</updated>
   <id>http://bescala.github.com/bescala/</id>
   <author>
     <name><![CDATA[BeScala]]></name>
@@ -63,23 +63,6 @@ Rue Émile Francqui, 4
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[BeScala @ Devoxx 2012]]></title>
-    <link href="http://bescala.github.com/bescala/bescala-devoxx-2012/"/>
-    <updated>2012-09-04T01:14:24+02:00</updated>
-    <id>http://bescala.github.com/bescala/bescala-devoxx-2012</id>
-    <content type="html"><![CDATA[<p>We are pleased to announce that our rendez-vous at <a href="http://www.devoxx.com/">Devoxx 2012</a> is confirmed.</p>
-
-<p>Come and join us on Monday 12th November at 19:00 on the <a href="http://www.devoxx.com/display/DV12/Scala+Enthusiasts+Gathering">Scala Enthusiasts Gathering BoF</a> for a informal meet-up with other Scala enthusiasts from Belgium and abroad.</p>
-
-<p>The access to the BoFs are <strong>free of charge</strong>, but of course we <strong>strongly</strong> <strong>recommend</strong> a Devoxx subscription. As usual, Devoxx is featuring a lot of excellent <a href="http://www.devoxx.com/display/DV12/Schedule">talks</a>, some of them on <a href="http://www.devoxx.com/label/DV12/scala">Scala</a>.</p>
-
-<p>Don't wait till the last minute, get today your Devoxx <a href="https://reg.devoxx.com/public/#DV12">subscription</a>.</p>
-
-<p><a href="https://reg.devoxx.com/public/#DV12"><img src="/images/devoxx-2012-horiz.gif" alt="Devoxx 2012" /></a></p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Meetup Sept 27th - Some Monads after the holidays]]></title>
     <link href="http://bescala.github.com/bescala/some-monads-after-the-holidays/"/>
     <updated>2012-08-28T09:26:45+02:00</updated>
@@ -114,6 +97,25 @@ B-2660 Antwerpen</p>
 
 <p><a href="http://www.inventivedesigners.com/">http://www.inventivedesigners.com/
 </a> <a href="http://maps.google.be/maps?q=Sint-Bernardsesteenweg+552++B-2660+Antwerpen&amp;hl=en&amp;sll=50.849361,4.735621&amp;sspn=0.012071,0.020084&amp;hnear=Sint-Bernardsesteenweg+552,+Hoboken+2660+Antwerpen,+Vlaams+Gewest&amp;t=m&amp;z=16">GoogleMaps</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Summer Drink]]></title>
+    <link href="http://bescala.github.com/bescala/summer-drink/"/>
+    <updated>2012-06-28T01:29:44+02:00</updated>
+    <id>http://bescala.github.com/bescala/summer-drink</id>
+    <content type="html"><![CDATA[<p>It's been a long time since our last meet-up.</p>
+
+<p>The holidays are coming and hopefully the sun as well. Therefore we would like organize a drink on the 1st of August.</p>
+
+<p>As usual, we created a Fikket subscription. <a href="http://bescala.fikket.com/event/summer-drink">http://bescala.fikket.com/event/summer-drink</a></p>
+
+<p>Subscription is of course not mandatory, everybody is welcome to join us for a drink.</p>
+
+<p>We'll meet at Delirium Café in Brussels at 19 o'clock.</p>
+
+<p>Address: Impasse de la Fidélité 4 (near central station).</p>
 ]]></content>
   </entry>
   
