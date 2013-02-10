@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[BeScala]]></title>
-  <link href="http://bescala.github.com/bescala/atom.xml" rel="self"/>
-  <link href="http://bescala.github.com/bescala/"/>
-  <updated>2013-02-10T01:14:10+01:00</updated>
-  <id>http://bescala.github.com/bescala/</id>
+  <link href="http://www.bescala.org/atom.xml" rel="self"/>
+  <link href="http://www.bescala.org/"/>
+  <updated>2013-02-10T01:25:04+01:00</updated>
+  <id>http://www.bescala.org/</id>
   <author>
     <name><![CDATA[BeScala]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Meetup October 10th - Molecule: Using Monadic and Streaming I/O to Compose Process Networks on the JVM]]></title>
-    <link href="http://bescala.github.com/bescala/meetup-october-10th/"/>
+    <link href="http://www.bescala.org/meetup-october-10th/"/>
     <updated>2012-10-01T21:36:44+02:00</updated>
-    <id>http://bescala.github.com/bescala/meetup-october-10th</id>
+    <id>http://www.bescala.org/meetup-october-10th</id>
     <content type="html"><![CDATA[<p>Writing and maintaining concurrent applications that exploit parallelism in multicore environment is a challenging task on the JVM. In absence of coroutines, programming against non-blocking I/O interfaces forces developers to give up traditional control structures offered transparently by native threads such as termination management and exception handling. Managing these explicitly in a program often turns out into a maintenance nightmare for any non-trivial application. Moreover, in absence of good scheduling strategies, the performance of concurrent applications that exhibit a high amount of context switches may degrade significantly when they are scheduled over more than one thread.</p>
 
 <p>In this talk, we present Molecule, a domain specific language in Scala and a runtime library for developing concurrent applications on the JVM. Molecule applications are designed as process networks that communicate over strongly typed channel interfaces. Molecule abstracts user-level threads that interact over non-blocking interfaces behind a monad that takes care of automatic resource management and exception handling. Its strongly typed channel interfaces can be manipulated as lazy streams in functional programming languages, which contribute to increase the overall expressiveness of lightweight processes. Its runtime implement a flow parallel scheduler that eliminates thread context switches when processes communicate sequentially. We will illustrate its expressiveness and performance benefits over several examples during the talk.</p>
@@ -39,9 +39,9 @@ Belgium</p>
   
   <entry>
     <title type="html"><![CDATA[Meetup Oct 24th - AROM: a distributed parallel processing framework]]></title>
-    <link href="http://bescala.github.com/bescala/arom/"/>
+    <link href="http://www.bescala.org/arom/"/>
     <updated>2012-09-11T23:44:01+02:00</updated>
-    <id>http://bescala.github.com/bescala/arom</id>
+    <id>http://www.bescala.org/arom</id>
     <content type="html"><![CDATA[<p>The development in computational processing has driven towards distributed processing frameworks performing tasks in parallel setups. The recent advances in Cloud Computing have widely contributed to this tendency. The MapReduce model proposed by Google is one of the most popular despite the well-known limitations inherent to the model which constrain the types of jobs that can be expressed. On the other hand models based on Data Flow Graphs (DFG) for the processing and the definition of the jobs, while more complex to express, are more general and suitable for a wider range of tasks, including iterative and pipelined tasks.</p>
 
 <p>In this talk we present AROM, a framework for large scale distributed processing based on DFG to express the jobs and which uses paradigms from functional programming to define the operators. The former leads to more natural handling of pipelined tasks while the latter enhances genericity and reusability of the operators.</p>
@@ -64,9 +64,9 @@ Rue Émile Francqui, 4
   
   <entry>
     <title type="html"><![CDATA[BeScala @ Devoxx 2012]]></title>
-    <link href="http://bescala.github.com/bescala/bescala-devoxx-2012/"/>
+    <link href="http://www.bescala.org/bescala-devoxx-2012/"/>
     <updated>2012-09-04T01:14:24+02:00</updated>
-    <id>http://bescala.github.com/bescala/bescala-devoxx-2012</id>
+    <id>http://www.bescala.org/bescala-devoxx-2012</id>
     <content type="html"><![CDATA[<p>We are pleased to announce that our rendez-vous at <a href="http://www.devoxx.com/">Devoxx 2012</a> is confirmed.</p>
 
 <p>Come and join us on Monday 12th November at 19:00 on the <a href="http://www.devoxx.com/display/DV12/Scala+Enthusiasts+Gathering">Scala Enthusiasts Gathering BoF</a> for a informal meet-up with other Scala enthusiasts from Belgium and abroad.</p>
@@ -75,15 +75,15 @@ Rue Émile Francqui, 4
 
 <p>Don&#8217;t wait till the last minute, get today your Devoxx <a href="https://reg.devoxx.com/public/#DV12">subscription</a>.</p>
 
-<p><a href="https://reg.devoxx.com/public/#DV12"><img src="http://bescala.github.com/bescala/images/devoxx-2012-horiz.gif" alt="Devoxx 2012" /></a></p>
+<p><a href="https://reg.devoxx.com/public/#DV12"><img src="http://www.bescala.org/images/devoxx-2012-horiz.gif" alt="Devoxx 2012" /></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Meetup Sept 27th - Some Monads after the holidays]]></title>
-    <link href="http://bescala.github.com/bescala/some-monads-after-the-holidays/"/>
+    <link href="http://www.bescala.org/some-monads-after-the-holidays/"/>
     <updated>2012-08-28T09:26:45+02:00</updated>
-    <id>http://bescala.github.com/bescala/some-monads-after-the-holidays</id>
+    <id>http://www.bescala.org/some-monads-after-the-holidays</id>
     <content type="html"><![CDATA[<p>After the summer holidays, it&#8217;s time for some Scala and functional programming to bring us back to speed. :-) As such we are re-scheduling, the previous cancelled event on Monads. We&#8217;ll be meeting on the 27th September at 7pm and we will have <a href="http://www.linkedin.com/pub/luc-duponcheel/1/366/6b7">Luc Duponcheel</a> (@LucDup) presenting &#8220;Monads as Computations&#8221;.</p>
 
 <p>This talk deals with the monadic computation interface.
@@ -119,9 +119,9 @@ B-2660 Antwerpen</p>
   
   <entry>
     <title type="html"><![CDATA[Summer Drink]]></title>
-    <link href="http://bescala.github.com/bescala/summer-drink/"/>
+    <link href="http://www.bescala.org/summer-drink/"/>
     <updated>2012-06-28T01:29:44+02:00</updated>
-    <id>http://bescala.github.com/bescala/summer-drink</id>
+    <id>http://www.bescala.org/summer-drink</id>
     <content type="html"><![CDATA[<p>It&#8217;s been a long time since our last meet-up.</p>
 
 <p>The holidays are coming and hopefully the sun as well. Therefore we would like organize a drink on the 1st of August.</p>
@@ -138,9 +138,9 @@ B-2660 Antwerpen</p>
   
   <entry>
     <title type="html"><![CDATA[Play! Coding Dojo in Scala, May 21st in Leuven]]></title>
-    <link href="http://bescala.github.com/bescala/play-coding-dojo-in-scala/"/>
+    <link href="http://www.bescala.org/play-coding-dojo-in-scala/"/>
     <updated>2012-04-27T23:40:43+02:00</updated>
-    <id>http://bescala.github.com/bescala/play-coding-dojo-in-scala</id>
+    <id>http://www.bescala.org/play-coding-dojo-in-scala</id>
     <content type="html"><![CDATA[<h2><strong>SOLD OUT! </strong></h2>
 
 <p>During this Dojo we&#8217;ll implement a Play! 2.0 application in Scala.</p>
@@ -170,9 +170,9 @@ Interleuvenlaan 27B
   
   <entry>
     <title type="html"><![CDATA[ScalaCheck Slides from last BeScala Meet-Up]]></title>
-    <link href="http://bescala.github.com/bescala/scalacheck-slides/"/>
+    <link href="http://www.bescala.org/scalacheck-slides/"/>
     <updated>2012-02-21T10:43:44+01:00</updated>
-    <id>http://bescala.github.com/bescala/scalacheck-slides</id>
+    <id>http://www.bescala.org/scalacheck-slides</id>
     <content type="html"><![CDATA[<p><strong><a href="http://www.slideshare.net/BeScala/scala-check">ScalaCheck</a></strong></p>
 
 <p>View more <a href="http://www.slideshare.net/thecroaker/death-by-powerpoint">PowerPoint</a> from <a href="http://www.slideshare.net/BeScala">BeScala</a></p>
@@ -181,9 +181,9 @@ Interleuvenlaan 27B
   
   <entry>
     <title type="html"><![CDATA[BeScala Meetup at Inventive Designers on Thursday, Feb 16th]]></title>
-    <link href="http://bescala.github.com/bescala/bescala-meetup-2012-02-16/"/>
+    <link href="http://www.bescala.org/bescala-meetup-2012-02-16/"/>
     <updated>2012-01-30T22:36:30+01:00</updated>
-    <id>http://bescala.github.com/bescala/bescala-meetup-2012-02-16</id>
+    <id>http://www.bescala.org/bescala-meetup-2012-02-16</id>
     <content type="html"><![CDATA[<p>This Scala meetup is generously hosted by Inventive Designers in Antwerp.</p>
 
 <p>7pm meet and greet</p>
@@ -203,9 +203,9 @@ Interleuvenlaan 27B
   
   <entry>
     <title type="html"><![CDATA[Report from the Scala Enthusiasts Gathering Bof @ Devoxx]]></title>
-    <link href="http://bescala.github.com/bescala/report-from-scala-enthusiasts-gathering/"/>
+    <link href="http://www.bescala.org/report-from-scala-enthusiasts-gathering/"/>
     <updated>2011-11-15T19:03:47+01:00</updated>
-    <id>http://bescala.github.com/bescala/report-from-scala-enthusiasts-gathering</id>
+    <id>http://www.bescala.org/report-from-scala-enthusiasts-gathering</id>
     <content type="html"><![CDATA[<p>Yesterday, we had the &#8220;Scala Enthusiats Gathering&#8221; BoF at Devoxx. We had between 20 to 30 attendees, some beer and some very interesting discussions about Scala. Most of the attendees were from Europe and Scala experience varied from none to full time Scala developers. We even had a Typesafe employee joining us. :-)</p>
 
 <p>One of the most discussed topic was Scala adoption and how to introduce it at work. As usual the most proposed strategy was to introduce it via non-produciton code, such as testing or support tools (build, deployment, log analysis, etc).</p>
@@ -228,9 +228,9 @@ Interleuvenlaan 27B
   
   <entry>
     <title type="html"><![CDATA[Scala Devoxx Calendar]]></title>
-    <link href="http://bescala.github.com/bescala/scala-devoxx-calendar/"/>
+    <link href="http://www.bescala.org/scala-devoxx-calendar/"/>
     <updated>2011-10-03T23:04:11+02:00</updated>
-    <id>http://bescala.github.com/bescala/scala-devoxx-calendar</id>
+    <id>http://www.bescala.org/scala-devoxx-calendar</id>
     <content type="html"><![CDATA[<p>We have created two Google Calendars with all Devoxx&#8217; <strong>Scala</strong> talks and related topics.</p>
 
 <ul>
@@ -249,9 +249,9 @@ Interleuvenlaan 27B
   
   <entry>
     <title type="html"><![CDATA[BeScala @ Devoxx 2011]]></title>
-    <link href="http://bescala.github.com/bescala/bescala-devoxx-2011/"/>
+    <link href="http://www.bescala.org/bescala-devoxx-2011/"/>
     <updated>2011-09-26T23:17:02+02:00</updated>
-    <id>http://bescala.github.com/bescala/bescala-devoxx-2011</id>
+    <id>http://www.bescala.org/bescala-devoxx-2011</id>
     <content type="html"><![CDATA[<p>We are pleased to announce that we&#8217;ll be present at <a href="http://www.devoxx.com/">Devoxx 2011</a> with the &#8221;<a href="http://www.devoxx.com/display/DV11/Scala+Enthusiasts+Gathering">Scala Enthusiasts Gathering</a>&#8221; BoF.</p>
 
 <p>Come and join us on Monday 14th at 20:00 for a informal meet-up with other Scala enthusiasts from Belgium and abroad.</p>
@@ -264,15 +264,15 @@ Interleuvenlaan 27B
 
 <p>Don&#8217;t wait till the last minute, get today your Devoxx <a href="https://reg.devoxx.com/">subscription</a>.</p>
 
-<p><a href="https://reg.devoxx.com/"><img src="http://bescala.github.com/bescala/images/DEVOXX-Banner486x60_V1-anim-300x37.gif" alt="" /></a></p>
+<p><a href="https://reg.devoxx.com/"><img src="http://www.bescala.org/images/DEVOXX-Banner486x60_V1-anim-300x37.gif" alt="" /></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Report from last meet-up]]></title>
-    <link href="http://bescala.github.com/bescala/report-from-last-meet-up/"/>
+    <link href="http://www.bescala.org/report-from-last-meet-up/"/>
     <updated>2011-09-19T23:56:31+02:00</updated>
-    <id>http://bescala.github.com/bescala/report-from-last-meet-up</id>
+    <id>http://www.bescala.org/report-from-last-meet-up</id>
     <content type="html"><![CDATA[<p>Last week we had our second meet-up with some very interesting Lightning talks, pizzas and beer! What could a Scala enthusiast ask more? :-)</p>
 
 <p>Some of the presentations are available on slideshare.
@@ -291,32 +291,32 @@ Cyrille Dejemeppe</p>
   
   <entry>
     <title type="html"><![CDATA[BeScala 2nd Meet-up - Programme]]></title>
-    <link href="http://bescala.github.com/bescala/bescala-2nd-meet-up-programme/"/>
+    <link href="http://www.bescala.org/bescala-2nd-meet-up-programme/"/>
     <updated>2011-09-12T23:21:28+02:00</updated>
-    <id>http://bescala.github.com/bescala/bescala-2nd-meet-up-programme</id>
+    <id>http://www.bescala.org/bescala-2nd-meet-up-programme</id>
     <content type="html"><![CDATA[<h2>Intro</h2>
 
-<p><strong>Louis Jacomet</strong> <a href="http://be.linkedin.com/in/ljacomet"><img src="http://bescala.github.com/bescala/images/linkedin.png" alt="" /></a> <a href="http://twitter.com/#!/ljacomet"><img src="http://bescala.github.com/bescala/images/twitter.png" alt="" /></a><br/>
+<p><strong>Louis Jacomet</strong> <a href="http://be.linkedin.com/in/ljacomet"><img src="http://www.bescala.org/images/linkedin.png" alt="" /></a> <a href="http://twitter.com/#!/ljacomet"><img src="http://www.bescala.org/images/twitter.png" alt="" /></a><br/>
 BeScala introduction and objectives.</p>
 
 <h2>Lightning talks</h2>
 
-<p><strong>Tim Romberg</strong> <a href="http://be.linkedin.com/pub/tim-romberg/0/862/6a3"><img src="http://bescala.github.com/bescala/images/linkedin.png" alt="" /></a><br/>
+<p><strong>Tim Romberg</strong> <a href="http://be.linkedin.com/pub/tim-romberg/0/862/6a3"><img src="http://www.bescala.org/images/linkedin.png" alt="" /></a><br/>
 Short presentation of the Lift web framework, reporting on experience in creating a membership portal</p>
 
-<p><strong>Renato Cavalcanti</strong> <a href="http://be.linkedin.com/in/renatocavalcanti"><img src="http://bescala.github.com/bescala/images/linkedin.png" alt="" /></a> <a href="http://twitter.com/#!/irenato"><img src="http://bescala.github.com/bescala/images/twitter.png" alt="" /></a><br/>
+<p><strong>Renato Cavalcanti</strong> <a href="http://be.linkedin.com/in/renatocavalcanti"><img src="http://www.bescala.org/images/linkedin.png" alt="" /></a> <a href="http://twitter.com/#!/irenato"><img src="http://www.bescala.org/images/twitter.png" alt="" /></a><br/>
 Scala Guice is a thin layer on top of Google Guice that offers a more Scala like syntax.</p>
 
-<p><strong>Guy Van den Broeck</strong> <a href="http://www.linkedin.com/in/guyvdb"><img src="http://bescala.github.com/bescala/images/linkedin.png" alt="" /></a><br/>
+<p><strong>Guy Van den Broeck</strong> <a href="http://www.linkedin.com/in/guyvdb"><img src="http://www.bescala.org/images/linkedin.png" alt="" /></a><br/>
 Probabilistic Programming with Scala</p>
 
-<p><strong>Sébastien Doeraene</strong> <a href="http://be.linkedin.com/pub/s%C3%A9bastien-doeraene/36/a3a/348/en"><img src="http://bescala.github.com/bescala/images/linkedin.png" alt="" /></a> <a href="https://twitter.com/#!/sjrdoeraene"><img src="http://bescala.github.com/bescala/images/twitter.png" alt="" /></a><br/>
+<p><strong>Sébastien Doeraene</strong> <a href="http://be.linkedin.com/pub/s%C3%A9bastien-doeraene/36/a3a/348/en"><img src="http://www.bescala.org/images/linkedin.png" alt="" /></a> <a href="https://twitter.com/#!/sjrdoeraene"><img src="http://www.bescala.org/images/twitter.png" alt="" /></a><br/>
 Ozma is a conservative extension to Scala with Oz concurrency. Ozma adds dataflow values, lightweight threads, lazy execution and ports to Scala. Dataflow values, which are single-assignment values with automatic synchronization, are a very powerful language primitive for building concurrent software. They allow for declarative concurrency, a model in which concurrency is deterministic and explicit synchronization is not needed. In this talk, we present some of the most powerful programming techniques of Ozma with the help of some examples.</p>
 
-<p><strong>Gilles Scouvart</strong> <a href="http://be.linkedin.com/pub/gilles-scouvart/2/325/152"><img src="http://bescala.github.com/bescala/images/linkedin.png" alt="" /></a> <a href="http://twitter.com/#!/Gesprye"><img src="http://bescala.github.com/bescala/images/twitter.png" alt="" /></a><br/>
+<p><strong>Gilles Scouvart</strong> <a href="http://be.linkedin.com/pub/gilles-scouvart/2/325/152"><img src="http://www.bescala.org/images/linkedin.png" alt="" /></a> <a href="http://twitter.com/#!/Gesprye"><img src="http://www.bescala.org/images/twitter.png" alt="" /></a><br/>
 n-Side is using Scala to develop some of its applications. One of the main reasons for that is how easy it makes to create Domain-Specific Languages (DSLs). In our business domain (mathematical optimization), developers are often writing their mathematical models in so-called modelling languages (e.g. AMPL), which typically lack the power of a true general-purpose programming language. On the other hand, general-purpose languages are often not expressive enough for this task. We use the power of Scala to design an internal DSL for optimization: Scampi (Scala Mathematical Programming Interface).</p>
 
-<p><strong>Pierre Schaus</strong> <a href="http://be.linkedin.com/in/pschaus"><img src="http://bescala.github.com/bescala/images/linkedin.png" alt="" /></a><br/>
+<p><strong>Pierre Schaus</strong> <a href="http://be.linkedin.com/in/pschaus"><img src="http://www.bescala.org/images/linkedin.png" alt="" /></a><br/>
 Constraint Programming is an algorithmic approach to solve complex
 combinatorial optimization problems.
 We&#8217;ll show how to describe and solve problems in Scala using our
@@ -332,7 +332,7 @@ to solve optimization problems) all implemented in Scala. We&#8217;ll
 shortly describe the problem proposed by Google and the high level
 ideas we already found to solve it.</p>
 
-<p><strong>Cyrille Dejemeppe</strong> <a href="http://www.linkedin.com/in/cdejemeppe"><img src="http://bescala.github.com/bescala/images/linkedin.png" alt="" /></a><br/>
+<p><strong>Cyrille Dejemeppe</strong> <a href="http://www.linkedin.com/in/cdejemeppe"><img src="http://www.bescala.org/images/linkedin.png" alt="" /></a><br/>
 N-Side has an optimization tool called CT-Fast which contains a very heavy evaluation process. This program outputs the Pareto set (i.e. the set of optimal points in multiobjective optimization) for some given objectives by using many evaluations of the heavy process mentioned above. I implemented multiobjective optimization algorithms in Scala (I&#8217;ve never used it before) to use less evaluations and thus speed up the execution of the whole tool. The performance obtained are impressive and there is a good hope it can really improve the tool. I have some graphs and animations to show.</p>
 
 <h2>Discussion Panel on Scala Adoption</h2>
@@ -343,9 +343,9 @@ N-Side has an optimization tool called CT-Fast which contains a very heavy evalu
   
   <entry>
     <title type="html"><![CDATA[BeScala - 2nd meet-up]]></title>
-    <link href="http://bescala.github.com/bescala/bescala-2nd-meet-up/"/>
+    <link href="http://www.bescala.org/bescala-2nd-meet-up/"/>
     <updated>2011-08-25T14:57:48+02:00</updated>
-    <id>http://bescala.github.com/bescala/bescala-2nd-meet-up</id>
+    <id>http://www.bescala.org/bescala-2nd-meet-up</id>
     <content type="html"><![CDATA[<p>Our next meet-up will be held on the 13th September, 19:00 at N-SIDE office.</p>
 
 <p>N-SIDE s.a. - Belgium
@@ -369,9 +369,9 @@ The talks will be 5 minutes in length. See for reference: <a href="http://en.wik
   
   <entry>
     <title type="html"><![CDATA[Welcome to BeScala ]]></title>
-    <link href="http://bescala.github.com/bescala/belgian-scala-user-group/"/>
+    <link href="http://www.bescala.org/belgian-scala-user-group/"/>
     <updated>2011-07-18T18:43:02+02:00</updated>
-    <id>http://bescala.github.com/bescala/belgian-scala-user-group</id>
+    <id>http://www.bescala.org/belgian-scala-user-group</id>
     <content type="html"><![CDATA[<p>So, here is our website and its first post!</p>
 
 <p><strong>BeScala</strong>, the<strong> Belgium Scala Enthusiasts</strong> website was born after the first <strong>Belgium Scala Meetup</strong> hold on July 13th, 2011 in Brussels.</p>

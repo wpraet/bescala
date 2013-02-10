@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://bescala.github.com/bescala/sitemap.xml 
+Sitemap: http://www.bescala.org/sitemap.xml 

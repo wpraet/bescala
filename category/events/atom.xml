@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Events | BeScala]]></title>
-  <link href="http://bescala.github.com/bescala/category/events/atom.xml" rel="self"/>
-  <link href="http://bescala.github.com/bescala/"/>
-  <updated>2013-02-10T01:14:10+01:00</updated>
-  <id>http://bescala.github.com/bescala/</id>
+  <link href="http://www.bescala.org/category/events/atom.xml" rel="self"/>
+  <link href="http://www.bescala.org/"/>
+  <updated>2013-02-10T01:25:04+01:00</updated>
+  <id>http://www.bescala.org/</id>
   <author>
     <name><![CDATA[BeScala]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Meetup October 10th - Molecule: Using Monadic and Streaming I/O to Compose Process Networks on the JVM]]></title>
-    <link href="http://bescala.github.com/bescala/meetup-october-10th/"/>
+    <link href="http://www.bescala.org/meetup-october-10th/"/>
     <updated>2012-10-01T21:36:44+02:00</updated>
-    <id>http://bescala.github.com/bescala/meetup-october-10th</id>
+    <id>http://www.bescala.org/meetup-october-10th</id>
     <content type="html"><![CDATA[<p>Writing and maintaining concurrent applications that exploit parallelism in multicore environment is a challenging task on the JVM. In absence of coroutines, programming against non-blocking I/O interfaces forces developers to give up traditional control structures offered transparently by native threads such as termination management and exception handling. Managing these explicitly in a program often turns out into a maintenance nightmare for any non-trivial application. Moreover, in absence of good scheduling strategies, the performance of concurrent applications that exhibit a high amount of context switches may degrade significantly when they are scheduled over more than one thread.</p>
 
 <p>In this talk, we present Molecule, a domain specific language in Scala and a runtime library for developing concurrent applications on the JVM. Molecule applications are designed as process networks that communicate over strongly typed channel interfaces. Molecule abstracts user-level threads that interact over non-blocking interfaces behind a monad that takes care of automatic resource management and exception handling. Its strongly typed channel interfaces can be manipulated as lazy streams in functional programming languages, which contribute to increase the overall expressiveness of lightweight processes. Its runtime implement a flow parallel scheduler that eliminates thread context switches when processes communicate sequentially. We will illustrate its expressiveness and performance benefits over several examples during the talk.</p>
@@ -39,9 +39,9 @@ Belgium</p>
   
   <entry>
     <title type="html"><![CDATA[Meetup Oct 24th - AROM: a distributed parallel processing framework]]></title>
-    <link href="http://bescala.github.com/bescala/arom/"/>
+    <link href="http://www.bescala.org/arom/"/>
     <updated>2012-09-11T23:44:01+02:00</updated>
-    <id>http://bescala.github.com/bescala/arom</id>
+    <id>http://www.bescala.org/arom</id>
     <content type="html"><![CDATA[<p>The development in computational processing has driven towards distributed processing frameworks performing tasks in parallel setups. The recent advances in Cloud Computing have widely contributed to this tendency. The MapReduce model proposed by Google is one of the most popular despite the well-known limitations inherent to the model which constrain the types of jobs that can be expressed. On the other hand models based on Data Flow Graphs (DFG) for the processing and the definition of the jobs, while more complex to express, are more general and suitable for a wider range of tasks, including iterative and pipelined tasks.</p>
 
 <p>In this talk we present AROM, a framework for large scale distributed processing based on DFG to express the jobs and which uses paradigms from functional programming to define the operators. The former leads to more natural handling of pipelined tasks while the latter enhances genericity and reusability of the operators.</p>
@@ -64,9 +64,9 @@ Rue Émile Francqui, 4
   
   <entry>
     <title type="html"><![CDATA[Meetup Sept 27th - Some Monads after the holidays]]></title>
-    <link href="http://bescala.github.com/bescala/some-monads-after-the-holidays/"/>
+    <link href="http://www.bescala.org/some-monads-after-the-holidays/"/>
     <updated>2012-08-28T09:26:45+02:00</updated>
-    <id>http://bescala.github.com/bescala/some-monads-after-the-holidays</id>
+    <id>http://www.bescala.org/some-monads-after-the-holidays</id>
     <content type="html"><![CDATA[<p>After the summer holidays, it's time for some Scala and functional programming to bring us back to speed. :-) As such we are re-scheduling, the previous cancelled event on Monads. We'll be meeting on the 27th September at 7pm and we will have <a href="http://www.linkedin.com/pub/luc-duponcheel/1/366/6b7">Luc Duponcheel</a> (@LucDup) presenting "Monads as Computations".</p>
 
 <p>This talk deals with the monadic computation interface.
@@ -102,9 +102,9 @@ B-2660 Antwerpen</p>
   
   <entry>
     <title type="html"><![CDATA[Summer Drink]]></title>
-    <link href="http://bescala.github.com/bescala/summer-drink/"/>
+    <link href="http://www.bescala.org/summer-drink/"/>
     <updated>2012-06-28T01:29:44+02:00</updated>
-    <id>http://bescala.github.com/bescala/summer-drink</id>
+    <id>http://www.bescala.org/summer-drink</id>
     <content type="html"><![CDATA[<p>It's been a long time since our last meet-up.</p>
 
 <p>The holidays are coming and hopefully the sun as well. Therefore we would like organize a drink on the 1st of August.</p>
@@ -121,9 +121,9 @@ B-2660 Antwerpen</p>
   
   <entry>
     <title type="html"><![CDATA[Play! Coding Dojo in Scala, May 21st in Leuven]]></title>
-    <link href="http://bescala.github.com/bescala/play-coding-dojo-in-scala/"/>
+    <link href="http://www.bescala.org/play-coding-dojo-in-scala/"/>
     <updated>2012-04-27T23:40:43+02:00</updated>
-    <id>http://bescala.github.com/bescala/play-coding-dojo-in-scala</id>
+    <id>http://www.bescala.org/play-coding-dojo-in-scala</id>
     <content type="html"><![CDATA[<h2><strong>SOLD OUT! </strong></h2>
 
 <p>During this Dojo we'll implement a Play! 2.0 application in Scala.</p>
