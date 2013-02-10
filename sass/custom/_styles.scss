@@ -23,6 +23,19 @@ body > header h2 {
 
 .social-links {
   float : right;
+  padding-bottom : 0.7em;
+}
+
+#content .blog-index article h1 {
+  font-size: 1.4em;
+  font-family  : $sans;
+}
+
+article p {
+  text-align: left;
+  margin-bottom: 1em;
+  font-family : $sans;
+  color : #555;
 }
 
 .social-links img { 
@@ -79,6 +92,8 @@ a:visited {
   text-decoration: underline;
 }
 
+
+
 #content .blog-index article h1 a:hover {
   color:  $bescala-red;
 }
@@ -92,7 +107,7 @@ article header p.meta {
   color : $bescala-red;
 }
 
-.month {
+#blog-archives time .month {
   text-transform: none;
 }
 

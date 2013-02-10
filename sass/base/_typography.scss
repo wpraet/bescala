@@ -5,13 +5,20 @@
 }
 
 $blockquote: $type-border !default;
-$sans: "Lato", sans-serif;
-$serif: "Lato", sans-serif;
+//$sans: "Lato", sans-serif;
+//$serif: "Lato", sans-serif;
+
+$sans: "Futura Medium", "Century Gothic", "AppleGothic", sans-serif;
+$serif: "Futura Medium", "Century Gothic", "AppleGothic", sans-serif;
+
 $mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
 $heading-font-family: 'Lato', sans-serif;
-$header-title-font-family: "League", Helvetica, Arial, sans-serif;
-$header-subtitle-font-family: $heading-font-family !default;
 
+//$header-title-font-family: "League", Helvetica, Arial, sans-serif;
+//$header-subtitle-font-family: $heading-font-family !default;
+
+$header-title-font-family: "Futura", sans-serif;
+$header-subtitle-font-family: "Futura", sans-serif;
 
 // Fonts
 .heading {
