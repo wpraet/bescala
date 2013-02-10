@@ -2,10 +2,10 @@
 project_type = :stand_alone
 
 # Publishing paths
-http_path = "/bescala/"
-http_images_path = "/bescala/images"
-http_fonts_path = "/bescala/fonts"
-css_dir = "public/bescala/stylesheets"
+http_path = "/"
+http_images_path = "/images"
+http_fonts_path = "/fonts"
+css_dir = "public/stylesheets"
 
 # Local development paths
 sass_dir = "sass"
