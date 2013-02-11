@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Scala | BeScala]]></title>
   <link href="http://www.bescala.org/category/scala/atom.xml" rel="self"/>
   <link href="http://www.bescala.org/"/>
-  <updated>2013-02-11T01:14:05+01:00</updated>
+  <updated>2013-02-11T10:25:48+01:00</updated>
   <id>http://www.bescala.org/</id>
   <author>
     <name><![CDATA[BeScala]]></name>
@@ -75,7 +75,7 @@ Rue Émile Francqui, 4
 
 <p>Don't wait till the last minute, get today your Devoxx <a href="https://reg.devoxx.com/public/#DV12">subscription</a>.</p>
 
-<p><a href="https://reg.devoxx.com/public/#DV12"><img src="/images/devoxx-2012-horiz.gif" alt="Devoxx 2012" /></a></p>
+<p><a href="https://reg.devoxx.com/public/#DV12"><img src="{{root.url}}/images/devoxx-2012-horiz.gif" alt="Devoxx 2012" /></a></p>
 ]]></content>
   </entry>
   

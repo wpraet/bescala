@@ -4,7 +4,7 @@
   <title><![CDATA[Category: meetup | BeScala]]></title>
   <link href="http://www.bescala.org/category/meetup/atom.xml" rel="self"/>
   <link href="http://www.bescala.org/"/>
-  <updated>2013-02-11T01:14:05+01:00</updated>
+  <updated>2013-02-11T10:25:48+01:00</updated>
   <id>http://www.bescala.org/</id>
   <author>
     <name><![CDATA[BeScala]]></name>
@@ -53,7 +53,7 @@ Address: Impasse de la Fidélité 4.  (<a href="https://plus.google.com/events/c
 
 <p>Now that the website is on github, everybody can fork it, add/modify content and send us a pull request. This will allow us, but also the whole group, to quickly add new content.</p>
 
-<p>The site can be forked from here: https://github.com/BeScala/bescala
+<p>The site can be forked from here: <a href="https://github.com/BeScala/bescala">https://github.com/BeScala/bescala</a>
 You need to have Ruby (sorry for that) installed. You can find instructions on the <a href="http://octopress.org/docs/">Octopress' website</a></p>
 
 <p>That's all folks. Hope to see you all on the next meetup.</p>
