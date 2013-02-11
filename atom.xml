@@ -4,7 +4,7 @@
   <title><![CDATA[BeScala]]></title>
   <link href="http://www.bescala.org/atom.xml" rel="self"/>
   <link href="http://www.bescala.org/"/>
-  <updated>2013-02-11T10:25:09+01:00</updated>
+  <updated>2013-02-11T10:25:57+01:00</updated>
   <id>http://www.bescala.org/</id>
   <author>
     <name><![CDATA[BeScala]]></name>
@@ -212,46 +212,6 @@ Interleuvenlaan 27B
 
 <p><a href="http://www.ae.be">http://www.ae.be
 </a><a href="http://maps.google.be/maps?q=Interleuvenlaan+27B++3001+Heverlee&amp;hl=en&amp;sll=50.805935,4.432983&amp;sspn=6.187081,10.283203&amp;hnear=Interleuvenlaan+27,+3001+Leuven,+Vlaams-Brabant,+Vlaams+Gewest&amp;t=m&amp;z=16">GoogleMaps</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CANCELED: Next BeScala event: Monads as Computations]]></title>
-    <link href="http://www.bescala.org/next-bescala-event-at-inventive-designers-monday-may-7th-7pm/"/>
-    <updated>2012-04-18T00:31:46+02:00</updated>
-    <id>http://www.bescala.org/next-bescala-event-at-inventive-designers-monday-may-7th-7pm</id>
-    <content type="html"><![CDATA[<p>The next BeScala event is scheduled for Monday May 7th at 7pm and we will have <a href="http://www.linkedin.com/pub/luc-duponcheel/1/366/6b7">Luc Duponcheel</a> (@LucDup) presenting &#8220;Monads as Computations&#8221;.</p>
-
-<p>This talk deals with the monadic computation interface.
-When implemented in Scala it can be used a DSL for approaching a whole range of computations in a uniform way.
-This talk also shows how monads can be transformed to add extra computational features to them (while keeping their original (extra) computational features).</p>
-
-<p>The following extra computational features will be demonstrated:</p>
-
-<ul>
-<li><p>state</p></li>
-<li><p>control (delimited continuations based)</p></li>
-</ul>
-
-
-<p>In fact, the talk illustrates how to implement a monadic delimited continuations DSL without having to use an extra compiler plugin.
-The resulting DSL is only slightly less concise than the one that makes use of the compiler plugin.</p>
-
-<p>If there is some time left then also parallel programming with those monadic delimited continuations can be dealt with.</p>
-
-<p>This BeScala meetup is generously hosted by <strong><a href="http://www.inventivedesigners.com/">Inventive Designers</a></strong> in Antwerpen.</p>
-
-<p>Please <strong><a href="http://bescala.fikket.com/events/monads-as-computations/orders/new">register</a></strong> on the fikket page, as we have to limit participation.</p>
-
-<p>Also, let us know if you have a change of plans, so we clan please others if needed.</p>
-
-<p><strong>Direction</strong>:
-Inventive Designers NV
-Sint-Bernardsesteenweg 552
-B-2660 Antwerpen</p>
-
-<p><a href="http://www.inventivedesigners.com/">http://www.inventivedesigners.com/
-</a> <a href="http://maps.google.be/maps?q=Sint-Bernardsesteenweg+552++B-2660+Antwerpen&amp;hl=en&amp;sll=50.849361,4.735621&amp;sspn=0.012071,0.020084&amp;hnear=Sint-Bernardsesteenweg+552,+Hoboken+2660+Antwerpen,+Vlaams+Gewest&amp;t=m&amp;z=16">GoogleMaps</a></p>
 ]]></content>
   </entry>
   
