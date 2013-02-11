@@ -3,7 +3,7 @@ layout: post
 title: "BeScala 2013"
 date: 2013-02-10 22:14
 comments: true
-categories: [bescala, meetup]
+categories: [BeScala, meetup]
 ---
 
 After a long break it's time to push our community forward. We have been working on some small changes to our infrastructure and social network presence.
@@ -36,7 +36,7 @@ Now serious, we didn't chnage because github and Octopress are cool.  They are, 
 
 We had two real reasons: 
 
- * Maintain a Wordpress installation requires some time. A lot of time. Time that we don't have or that we prefer to spent hacking in Scala or with our families (not necessarily on this order). 
+ * Maintain a Wordpress installation requires some time. A lot of time. Time that we don't have or that we prefer to spent hacking in Scala or with our families (not necessarily in this order). 
 
  * People need to have an account to edit/add content and as a consequence, only we (the BeScala organizers), can create content. That's sub-optimal.
 
