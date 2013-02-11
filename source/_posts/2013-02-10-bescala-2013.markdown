@@ -10,7 +10,7 @@ After a long break it's time to push our community forward. We have been working
 
 When we started about two years ago, we created a LinkedIn group, a Twitter account, a Fikket account, a Google Groups mailing list, a Picasa Web Album and this website. It's clear that we have too many social networks to administrate. 
 
-We would like to improve on that by reducing the number of communication channels. Therefore we created a community page on [Google+](https://plus.google.com/communities/107648187573764165681) where we plain to publish information about up coming meetups (replaces Fikket), photos (replaces Picasa) and any other information that we want to share with our members (replaces LinkedIn and GoogleGroups).
+We would like to improve on that by reducing the number of communication channels. Therefore we created a community page on [Google+](https://plus.google.com/communities/107648187573764165681) where we plan to publish information about up coming meetups (replaces Fikket), photos (replaces Picasa) and any other information that we want to share with our members (replaces LinkedIn and GoogleGroups).
 
 In addition to that, we also moved our website to Octopress and it's now being hosted at github. More on that later on...
 
